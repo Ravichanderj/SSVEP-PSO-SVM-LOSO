@@ -73,10 +73,10 @@ SSVEP-PSO-SVM-LOSO/
 ├── requirements.md
 
 ├── src/
+│   ├── pso-svm-main.m
 │   ├── fourpreprocss.m
-│   ├── losonayak.m
 │   ├── shapfinal.m
-│   └── testnayak.m
+│   └── statictest.m
 
 ├── results/
 │   ├── figures/
