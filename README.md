@@ -218,7 +218,7 @@ If you use this repository in your research, please cite:
 
 ```bibtex
 @software{Ravichander2026,
-  author = {Ravichander J},
+  author = {Ravichander Janapati},
   title = {SSVEP-PSO-SVM-LOSO: Subject-Independent SSVEP Classification Framework},
   year = {2026},
   url = {https://github.com/yourusername/SSVEP-PSO-SVM-LOSO}
