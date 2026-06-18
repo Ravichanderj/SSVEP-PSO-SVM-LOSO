@@ -211,9 +211,11 @@ The framework automatically performs:
 8. Result visualization
 
 ---
-Dataset link:
+Original Dataset link and Citation:
 
-https://data.mendeley.com/datasets/px9dpkssy8/draft?a=7140665d-a0f0-40b2-a9fd-a731d21b6222
+The Mendeley Data that support the findings of this study available on the https://data.mendeley.com/datasets/px9dpkssy8/draft?a=7140665d-a0f0-40b2-a9fd-a731d21b6222 with individual Elsevier (Digital Commons Data) authentication. 
+
+Acampora, Giovanni; Trinchese, Pasquale; Vitiello, Autilia (2026), “Data for: A Dataset of EEG signals from a single-channel SSVEP-based Brain Computer Interface”, Mendeley Data, V1, doi: 10.17632/px9dpkssy8.1
 
 ##  Citation
 
