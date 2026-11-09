@@ -91,7 +91,7 @@ SSVEP-PSO-SVM-LOSO/
 
 ##  Feature Extraction
 
-The following EEG features are extracted:
+The following EEG features are extracted
 
 ### Time-Domain Features
 
