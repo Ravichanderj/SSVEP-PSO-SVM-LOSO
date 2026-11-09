@@ -1,6 +1,6 @@
 %% ============================================================
 % SHAP GLOBAL INTERPRETATION
-% BEESWARM SUMMARY PLOT (MATLAB VERSION)
+% BEESWARM SUMMARY PLOT (MATLAB)
 %% ============================================================
 
 clc;
@@ -9,7 +9,7 @@ close all;
 %% ============================================================
 % INPUTS
 %% ============================================================
-% Use your extracted EEG features:
+% Extracted EEG features:
 %
 % all_features
 % all_labels
