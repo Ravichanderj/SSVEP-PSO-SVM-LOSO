@@ -3,7 +3,7 @@ clear;
 close all;
 
 %% ============================================
-% REVIEWER-SAFE SSVEP LOSO PSO-SVM
+% SSVEP LOSO PSO-SVM
 % Subject-Independent Classification
 %% ============================================
 
@@ -557,14 +557,9 @@ fprintf('Macro F1-Score = %.4f\n',...
 
 fprintf('====================================\n');
 
-%% ============================================
-% END OF CODE
-%% ============================================
-
 
 %% ============================================================
-% REVIEWER-SAFE STATISTICAL VALIDATION FOR LOSO SSVEP PSO-SVM
-% Add AFTER your LOSO classification section
+% STATISTICAL VALIDATION FOR LOSO SSVEP PSO-SVM
 %% ============================================================
 
 clc;
@@ -580,7 +575,6 @@ fprintf('====================================================\n');
 % all_pred
 % loso_accuracy
 %
-% These are already generated in your LOSO code
 %% ============================================================
 
 %% ============================================================
@@ -973,10 +967,10 @@ figure;
 
 confusionchart(all_true,all_pred);
 
-title('Reviewer-Safe LOSO Confusion Matrix');
+title('LOSO Confusion Matrix');
 
 %% ============================================================
-% 11. ROC CURVE (OPTIONAL MULTI-CLASS)
+% 11. ROC CURVE (MULTI-CLASS)
 %% ============================================================
 
 try
@@ -1024,12 +1018,12 @@ catch
 end
 
 %% ============================================================
-% FINAL REVIEWER SUMMARY
+% FINAL SUMMARY
 %% ============================================================
 
 fprintf('\n====================================================\n');
 
-fprintf('REVIEWER-SAFE STATISTICAL SUMMARY\n');
+fprintf('STATISTICAL SUMMARY\n');
 
 fprintf('====================================================\n');
 
