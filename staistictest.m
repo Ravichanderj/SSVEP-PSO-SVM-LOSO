@@ -1,6 +1,5 @@
 %% ============================================================
-% REVIEWER-SAFE STATISTICAL VALIDATION FOR LOSO SSVEP PSO-SVM
-% Add AFTER your LOSO classification section
+% STATISTICAL VALIDATION FOR LOSO SSVEP PSO-SVM
 %% ============================================================
 
 clc;
@@ -16,7 +15,6 @@ fprintf('====================================================\n');
 % all_pred
 % loso_accuracy
 %
-% These are already generated in your LOSO code
 %% ============================================================
 
 %% ============================================================
@@ -409,7 +407,7 @@ figure;
 
 confusionchart(all_true,all_pred);
 
-title('Reviewer-Safe LOSO Confusion Matrix');
+title('LOSO Confusion Matrix');
 
 %% ============================================================
 % 11. ROC CURVE (OPTIONAL MULTI-CLASS)
@@ -460,12 +458,12 @@ catch
 end
 
 %% ============================================================
-% FINAL REVIEWER SUMMARY
+% FINAL SUMMARY
 %% ============================================================
 
 fprintf('\n====================================================\n');
 
-fprintf('REVIEWER-SAFE STATISTICAL SUMMARY\n');
+fprintf('STATISTICAL SUMMARY\n');
 
 fprintf('====================================================\n');
 
